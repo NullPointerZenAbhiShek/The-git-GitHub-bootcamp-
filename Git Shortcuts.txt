@@ -1,0 +1,9 @@
+//for check which name is there in the git 
+$ git config user.name
+
+//to config name git will associate with your work
+
+$ git config --global user.name ABHISHEK
+
+// Same thing for email using the following command it will be help full for GitHUb
+$ git config --global uset.email "abc@a.com"

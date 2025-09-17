@@ -1,0 +1,19 @@
+dir//for geting directories of the folder it is in
+
+cd foldername //for get into the folder
+
+cd .. //for go back to folder like this
+/*(HP@DESKTOP-KB05TOA MINGW64 /d/React js from udemy/04-1-practic-date-counter (main)
+$ cd ..
+
+HP@DESKTOP-KB05TOA MINGW64 /d/React js from udemy
+)*/
+
+########################################
+*****************Start******************
+########################################
+
+// dir we can use ls and ls also works on mac
+
+> open. // it will open the folder in mac
+$ start . // open the foldr in windows
