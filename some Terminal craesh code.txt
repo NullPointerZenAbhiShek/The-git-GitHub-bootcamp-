@@ -17,3 +17,28 @@ HP@DESKTOP-KB05TOA MINGW64 /d/React js from udemy
 
 > open. // it will open the folder in mac
 $ start . // open the foldr in windows
+$ ls folderName // it will show what are inside of the folder
+
+
+//if want to go to inside the folder's inside folder we have to go inside of the folder 
+$ ls folderName/subFolderName
+
+//clear screen 
+$clear 
+
+//pwd (print Working Directory)
+$pwd//give current location 
+
+//cd used to go to current directory
+$ cd /c/desktop/folder
+$cd .. //use to go back directory it will go to /c/desktop/
+
+//for creating any file we can use touch
+$ touch red.txt orange.java
+//and also we can create file then we can also add txt
+$ touch /folder/abc.txt //like this
+
+//for creating a folder separetly we use mkdir
+$ mkdir turtle //it will create a folder in the dir it is now present in
+
+
