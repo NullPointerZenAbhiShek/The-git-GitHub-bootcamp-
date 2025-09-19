@@ -42,3 +42,11 @@ $ touch /folder/abc.txt //like this
 $ mkdir turtle //it will create a folder in the dir it is now present in
 
 
+//deleting the file in terminal permanently
+$ rm <file_name>
+
+//for cheking hidden files in terminal is used 
+$ ls -a
+
+//deleting the folder/directory in terminal permanently
+$ rm -rf <file_name>
