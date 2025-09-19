@@ -7,3 +7,45 @@ $ git config --global user.name ABHISHEK
 
 // Same thing for email using the following command it will be help full for GitHUb
 $ git config --global uset.email "abc@a.com"
+
+//git status gives information on the current status of a git repository and its content
+
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+
+####### git start code ########
+// git init to crate a new git repository 
+
+// for new practice 
+$ mkdir MYFirstNovel //-> create a foleder as given name 
+
+$ cd myfirstnovel //-> go into the folder
+
+$ git status //-> check it is git or not
+fatal: not a git repository (or any of the parent directories): .git
+
+$ git init  // make it git 
+Initialized empty Git repository in C:/Users/HP/OneDrive/Desktop/Git and GitHub(
+Teminal code)/MYFirstNovel/.git/
+
+$ git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+$ ls //-> check the directory and find nothing bcz .git is hidden
+
+$ ls -a //-> finding hidden file
+./  ../  .git/
+
+****imp to remember *****
+1.if the folder is a git repo then all the nested are also git repo we don't have to make it again a git repo 
+it will give some headace bcz git following git it bit confusing 
+2. if by mistakly you did repo of nested git folder make sure delete it by first
+$ ls -a find the hidden folder .git
+then 
+$ rm -rf .git 
+*************************
