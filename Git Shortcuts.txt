@@ -98,4 +98,33 @@ git commit messages should be added for good practice but also we can just commi
 so how to give message when commit here how 
 $ git commit -m "my message"
 
+$ git commit -m "started chapter 1 and write about some chatacters in characters.txt "
+[master (root-commit) f1883e8] started chapter 1 and write about some chatacters
+ in characters.txt
+ 2 files changed, 6 insertions(+)
+ create mode 100644 Chapter1.txt
+ create mode 100644 Characters.txt
+
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+* here is quick note what ever small chages and add new file it will show when we run command $ git status so, we have to add and commit those so it will show nothing to commit ok 
+
+##### git log ######
+we use git log to check who change and what type of chages made and what messages add we use git log 
+
+$ git log
+
+
+$ git log
+commit f1883e89aa023d52b45482ab214405b7096bdba3 (HEAD -> master)
+Author: AbhishekSupakar <96167021+AbhishekSupakar@users.noreply.github.com>
+Date:   Mon Sep 22 11:35:21 2025 +0530
+
+    started chapter 1 and write about some chatacters in characters.txt
+
+
+git add . is use to add all the chages you make it will add all at once
+meas it stage all changes at once ok
 

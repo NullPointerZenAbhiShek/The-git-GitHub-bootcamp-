@@ -1,0 +1,42 @@
+Committing Basics Exercise
+--Create a new folder called Shopping => mkdir Shopping
+Initialize a new git repo inside of the Shopping folder (make sure you're not already inside of a Git repo!) => cd /Shopping => git init
+
+--Make a new file called yard.txt => touch yard.txt
+
+--Make another new file called groceries.txt => touch groceries.txt
+
+--Make a commit that includes both empty files.  The message should be "create yard and groceries lists" => git commit -m "create yard and groceries lists"
+
+=> code . // it will open vs code 
+--In the yard.txt file, add the following changes:
+- 2 bags of potting soil
+- 1 bag of worm castings
+=>​after this =>git add yard.txt
+=> git commit -m "add ingredients for tomato soup"
+
+--In the groceries.txt file, add the following:
+- 4 tomatoes
+- 6 shallots
+- 1 fennel bulb
+​=>​after this =>git add groceries.txt
+=> git commit -m "aadd items needed for garden box"
+
+XX--Make a new commit, including ONLY the changes from the groceries.txt file.  The commit message should be "add ingredients for tomato soup" 
+
+XX--Make a second commit including ONLY the changes to the yard.txt file.  It should have the commit message "add items needed for garden box"
+
+--Next up, add the following line to the end of groceries.txt
+- couple of seed potatos
+
+In the yard.txt file, change the first line so that it says "3 bags of potting soil" instead of "2 bags of potting soil"
+- 3 bags of potting soil
+- 1 bag of worm castings
+​git add .
+
+
+Make a commit that includes the changes to BOTH files.  The message should read "add items needed to grow potatoes"
+=> git commit -m "add items needed to grow potatoes"
+
+Use a Git command to display a list of the commits. You should see 4!
+=>git status
