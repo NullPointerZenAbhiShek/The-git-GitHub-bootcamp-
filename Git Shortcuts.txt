@@ -21,6 +21,8 @@ fatal: not a git repository (or any of the parent directories): .git
 $ mkdir MYFirstNovel //-> create a foleder as given name 
 
 $ cd myfirstnovel //-> go into the folder
+cd "C:\Users\HP\OneDrive\Desktop\Git and GitHub(Teminal code)\MYFirstNovel"
+
 
 $ git status //-> check it is git or not
 fatal: not a git repository (or any of the parent directories): .git
@@ -49,3 +51,51 @@ $ ls -a find the hidden folder .git
 then 
 $ rm -rf .git 
 *************************
+
+
+##### Commit #######
+**********basic things before commit****
+Git workflow 
+work on stuff - make files, edit files , delete files etc.
+Add changes - group specific changes together, in preparation of committing 
+Commit - Commit everything that was previously added
+******************************************
+there are 3 road to add and commit 
+first Working Directory => git add => Staging Area => git commit => Repository
+
+after chages to the folder/Dirctory we can add it to the git like this
+
+$ git <file1.txt> <file2.txt>
+
+(
+HP@DESKTOP-KB05TOA MINGW64 ~/OneDrive/Desktop/Git and GitHub(Teminal code)/MYFirstNovel (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Chapter 1.txt
+        Characters.txt
+)
+
+$ git add Chapter1.txt
+$ git add Characters.txt
+
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Chapter1.txt
+        new file:   Characters.txt
+***** git commit *****
+git commit messages should be added for good practice but also we can just commit by $ git commit 
+
+so how to give message when commit here how 
+$ git commit -m "my message"
+
+
